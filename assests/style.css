@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    z-index: 100;
+    font-family: 'Righteous', cursive;
+}
+
+.divider{
+    height: 10rem;
+    width: 2px;
+    background-color: white;
+}
+
+
+.result-div{
+    display: none;
+}
+
+
+
+footer{
+    position: fixed;
+    right: 50px;
+    bottom: 0;
+    
+}
+.play-div{
+    display: none;
+    
+}
+
+
+
+.choice-card{
+    
+    position: relative;
+    top: -50px;
+    display: none;
+    
+    
+}
+
+.info{
+    display: none;
+}
+
+.pitch{
+    display: none;
+}
+
+.content{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+
+}
+
+.keypad{
+     display: none; 
+    position: fixed;
+    bottom:105px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
